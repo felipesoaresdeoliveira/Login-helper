@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Login-Helper</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e9e0187e1e.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Login-Helper</h1>
+    </header>
+    <main>
+        <form>
+<section class="Inputs-container">
+<input type="email" placeholder="example@gmail.com" >
+<div class="password-container">
+    <input type="password" id="field-passoword" class="field-password " placeholder="********">
+    <i class="fa-solid fa-eye" id="olho" onclick="mostrarSenha()"></i>
+    <i class="fa-solid fa-eye-slash" id="olho-c" onclick="mostrarSenha()"></i>
+</div>
+</section>
+<section class="password-infos">
+    <div>
+        <input type="checkbox">
+        <span>Lembrar Senha</span>
+    </div>
+    <a href="#">Esqueceu sua senha?</a>
+</section>
+<button id="btn-login">Login</button>
+
+<section class="links-container">
+    <span>Ou entre com</span>
+    <aside>
+        <a href="#"><i class="fa-brands fa-google google"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook face"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram insta"></i></a>
+    </aside>
+</section>
+            <footer>  
+                <hr>
+                <span>Ainda não tem uma conta? <a href="#">Cadastre-se</a></span>  
+            </footer>
+        </form>
+    </main>
+</body>
+</html>
